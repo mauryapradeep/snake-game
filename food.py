@@ -1,6 +1,6 @@
 from turtle import Turtle
 import random
-#food_interaction = 0
+# food_interaction = 0
 class Food(Turtle):
     def __init__(self):
         super().__init__()
