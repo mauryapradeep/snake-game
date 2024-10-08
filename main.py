@@ -28,7 +28,7 @@ while game_is_on:
     time.sleep(0.2)
     snake.move()
 
-    # detect the snake collided with food
+    # detect if the snake collided with food
     if snake.head.distance(food) < 15:
 
         food.food_interaction += 1
